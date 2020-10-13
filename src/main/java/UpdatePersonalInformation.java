@@ -10,8 +10,9 @@ public class UpdatePersonalInformation {
                                                  String confirmation) {
         /*Se actualizan los datos personales del usuario*/
 
-
+        driver.findElement(By.id("firstname")).clear();
         driver.findElement(By.id("firstname")).sendKeys(firstname);
+        driver.findElement(By.id("lastname")).clear();
         driver.findElement(By.id("lastname")).sendKeys(lastname);
         driver.findElement(By.id("old_passwd")).sendKeys(old_password);
         driver.findElement(By.id("passwd")).sendKeys(password);
