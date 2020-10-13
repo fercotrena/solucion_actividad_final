@@ -5,7 +5,7 @@ import static utils.WebDriverSupliter.driver;
 /*
 * Esta clase no es requerida para completar la tarea.
 * Puede quedar resuelto sin dividir en esta capa.
-* Por ejemplo como quedo en la clase MyPersonalInformation
+* Por ejemplo puede quedar como la clase: MyPersonalInformation
 * */
 public class AuthenticationElement {
     public static String URL = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
